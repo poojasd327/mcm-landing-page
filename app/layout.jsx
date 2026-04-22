@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "NextJSX | MUI Environment",
-  description: "A premium Next.js environment powered by Material UI and pure JSX.",
+  title: "My Chicken and More",
+  description: "A secure, hygienic, and well-equipped store experience for your family's meat and seafood.",
 };
 
 export default function RootLayout({ children }) {
