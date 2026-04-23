@@ -9,7 +9,7 @@ import budigereImg from '../src/assets/budigere.jpg';
 import img2Img from '../src/assets/img-2.png';
 import img3Img from '../src/assets/img-3 (1).png';
 import logoImg from '../src/assets/mCM logo dd.svg';
-import phoneImg from '../src/assets/phone.png';
+import phoneImg from '../src/assets/phone (1).png';
 import dasarahalliImg from '../src/assets/t-dasarahalli.jpeg';
 import testImg from '../src/assets/test.png';
 
@@ -347,8 +347,7 @@ export default function Home() {
                 position: 'relative',
                 display: 'flex',
                 alignItems: 'center',
-                justifyContent: 'center',
-                cursor: 'pointer'
+                justifyContent: 'center'
               }}
             >
               <Box
@@ -422,9 +421,9 @@ export default function Home() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              sx={{ fontWeight: 800, mb: 4, color: 'text.primary', textAlign: 'center' }}
+              sx={{ fontWeight: 800, mb: 4, color: 'text.primary', textAlign: 'center', fontFamily: 'var(--font-figtree), sans-serif' }}
             >
-              Store Locator
+              Offer Available Only At These Stores
             </Typography>
 
             <Box
@@ -442,7 +441,7 @@ export default function Home() {
               {[
                 { name: 'Budigere Cross', rating: '4.9', stars: '★★★★★' },
                 { name: 'Bhuvaneshwari Nagar', rating: '4.9', stars: '★★★★★' },
-                { name: 'T Dasarahalli', rating: '4.8', stars: '★★★★☆' },
+                { name: 'T Dasarahalli', rating: '4.8', stars: '★★★★★' },
                 { name: 'Gunjur', rating: '4.9', stars: '★★★★★' }
               ].map((store, index) => (
                 <Box
@@ -489,7 +488,7 @@ export default function Home() {
                       {
                         name: 'T Dasarahalli',
                         rating: '4.8',
-                        stars: '★★★★☆',
+                        stars: '★★★★★',
                         image: dasarahalliImg.src,
                         link: 'https://share.google/WJdgIfdPlKvESATfV'
                       },
@@ -611,7 +610,7 @@ export default function Home() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              sx={{ fontWeight: 800, mb: 6, color: 'text.primary', textAlign: 'center' }}
+              sx={{ fontWeight: 800, mb: 6, color: 'text.primary', textAlign: 'center', fontFamily: 'var(--font-figtree), sans-serif' }}
             >
               How to Redeem
             </Typography>
@@ -647,20 +646,20 @@ export default function Home() {
 
               {[
                 {
-                  title: 'Apply Code',
-                  desc: 'Use code HOTDROP to avail the offer, valid only once per phone number (one-time use across all SKUs).'
-                },
-                {
                   title: 'Visit Branch',
                   desc: 'Offer valid exclusively at selected Bhuvaneshwari Nagar, T Dasarahalli, Budigere cross & Gunjur stores only.'
                 },
                 {
+                  title: 'Apply Code',
+                  desc: 'Use code HOTDROP to avail the offer, valid only once per phone number (one-time use across all SKUs).'
+                },
+                {
                   title: 'Stock Up',
-                  desc: 'Grab only up to 1 kg per SKU.'
+                  desc: 'You can purchase up to a maximum of 1 kg per SKU under this offer during redemption.'
                 },
                 {
                   title: 'Limited Time',
-                  desc: 'Valid from 23rd to 29th April – don’t miss out!'
+                  desc: 'Valid from 24th to 30th April, make sure to redeem within this limited period.'
                 }
               ].map((step, index) => (
                 <Box
